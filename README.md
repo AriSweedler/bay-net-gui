@@ -1,24 +1,10 @@
-# New Project
+# Bayesian Network Engine Gui
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+You're here because you wanna make a [Bayesian Network](https://en.wikipedia.org/wiki/Bayesian_network), and you wanna visualize it. And maybe see what changing one parameter would do to another.
 
-## Available Scripts
-
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.json` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+TODOs:
+* Make a Bayesian Net class that represents a BN
+* Write something that can display a BN
+  * You can edit it by clicking on stuff
+* Understand what data goes into a BN (is 1 CSV good enough to describe one?)
+* Write a good way to get people's data into and outta the system
